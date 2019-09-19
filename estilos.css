@@ -2,17 +2,19 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 a:link {color: red;}
-a:visited{color: yellow;}
+a:visited{color: rgba(19, 235, 109, 0.787);}
 
 h2{
     color:blue !important;
     border-width: 2px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif
+    font-family: 
 }
 img{
 
 }
-.clase1 {
+.clase1 { 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: large;
 
 }
 #id1 {
