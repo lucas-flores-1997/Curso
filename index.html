@@ -8,18 +8,36 @@
 </head>
 
 <body>
-    <h2 class="clase2">titulo h2</h2>
-    <img class="clase_img_1" src="cabans-hello-world.jpg" alt="hola mundo">
+    <header><h2 class="clase2">Centro Tecnologico <img class="clase_img_1" src="cetec.jpg" alt="hola mundo"></h2>
+
+    </header>
+   
     <p class="clase_p_1">esto es un parrafo</p>
     <br>
     <p class="clase_p_2">Lorem Ipsum l incluye versiones de Lorem Ipsum.
     </p>
-    <p>Quis sunt fugiat commodo veniam tempor.Ex sunt duis incididunt Lorem.Eiusmod ipsum duis ad in esse nostrud do quis eu eiusmod occaecat deserunt. Nulla consectetur commodo exercitation cupidatat qui do nisi et nisi veniam deserunt. Duis ea ipsum ex nisi laborum in est ea sint. Reprehenderit tempor aliqua eu aute adipisicing ea in elit enim amet non magna quis qui.</p>
     <p>Esse fugiat eu nisi consectetur id reprehenderit dolor adipisicing culpa nostrud nulla.
         Duis labore velit minim quis qui culpa eiusmod Lorem id nostrud non sint occaecat cupidatat.</p>
-    <a href="http://www.google.com" target="_blank" title='ir a "google"'>google</a>
-    <br>
+   
     <a class="clase2" href="http://www.google.com" target="_blank" title='ir a "google"'>google2</a>
+        <form action="formulario.php" method="POST"> 
+            <label>Nombre</label>
+            <input type="text" name="nombre" autofocus placeholder="ingrese nombre" tabindex="1">
+            <label>Apellido</label>
+            <input type="text" name="apellido" placeholder="ingrese apellido" tabindex="2">
+            <label>Contraseña</label>
+            <input type="password" name="contraseña" placeholder="Ingrese su contraseña" tabindex="4">
+            <select name="ciudad" tabindex="3">
+                <option value="mdq">Mar del Plata</option>
+                <option value="vid">Vidal</option>
+                <option value="mir">Miramar</option>
+        
+            </select>
+                <input type="checkbox" name="check" tabindex="5">
+            <input type="submit" value="Enviar">
+        </form>
+    <footer>Pie de pagina</footer>
 </body>
+
 
 </html>
