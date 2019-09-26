@@ -3,18 +3,32 @@
 }
 a:link {color: red;}
 a:visited{color: rgba(19, 235, 109, 0.787);}
+body {}
+input{display: block;}
 .clase2:hover{color: purple;}
+header{
+    line-height: 50px;
+    background: rgb(255, 255, 255);
+    text-align: center;
+}
 .clase_h2_1{
     color:blue !important;
     border-width: 2px;
     font-family: 
 }
 .clase_img_1{
-width: 50%;
-height: 50%;
+width: 5%;
+height: 5%;
+float: right;
 }
+input[type="submit"] {
+    background: aqua;
+
+}
+
 .clase_p_1 { 
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: large;
 }
 .clase_p_2{color: rgb(167, 13, 13)}
+
